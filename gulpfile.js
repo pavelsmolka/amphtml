@@ -63,6 +63,7 @@ function buildExtensions(options) {
   buildExtension('amp-facebook', '0.1', false, options);
   buildExtension('amp-fit-text', '0.1', true, options);
   buildExtension('amp-font', '0.1', false, options);
+  buildExtension('amp-hawk', '0.1', false, options);
   buildExtension('amp-iframe', '0.1', false, options);
   buildExtension('amp-image-lightbox', '0.1', true, options);
   buildExtension('amp-instagram', '0.1', false, options);
@@ -305,6 +306,7 @@ function buildExamples(watch) {
   buildExample('brightcove.amp.html');
   buildExample('kaltura.amp.html');
   buildExample('responsive.amp.html');
+  buildExample('hawk.amp.html');
   buildExample('article-access.amp.html');
   buildExample('dailymotion.amp.html');
   buildExample('carousel.amp.html');
